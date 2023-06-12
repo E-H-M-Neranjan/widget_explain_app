@@ -9,7 +9,8 @@ class GridViewWidget extends StatelessWidget {
       body: SafeArea(
         child: GridView(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2),
+            crossAxisCount: 2,
+          ),
         ),
       ),
     );
