@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class Screen02 extends StatefulWidget {
   String text;
   Screen02({required this.text, super.key});
