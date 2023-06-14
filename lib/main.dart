@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_explain_app/widgets/gridview_builder.dart';
+
+import 'screens/navigator_pages/screen1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GridViewBuilderWidget(),
+      home: const Screen01(),
     );
   }
 }

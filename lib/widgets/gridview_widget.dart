@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class GridViewWidget extends StatelessWidget {
   List<String> items = List.generate(50, (index) => "item $index");
 
