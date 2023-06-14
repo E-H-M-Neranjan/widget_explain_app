@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Screen02 extends StatelessWidget {
-  const Screen02({super.key});
+class Screen02 extends StatefulWidget {
+  String text;
+  Screen02({required this.text, super.key});
 
+  @override
+  State<Screen02> createState() => _Screen02State();
+}
+
+class _Screen02State extends State<Screen02> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,9 +19,9 @@ class Screen02 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text(
-              "Screen 02",
-              style: TextStyle(
+            Text(
+              widget.text,
+              style: const TextStyle(
                 fontSize: 45,
                 fontWeight: FontWeight.bold,
               ),

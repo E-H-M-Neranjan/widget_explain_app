@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../custom/custom_card.dart';
-import '../custom/custom_container.dart';
+import '../../custom/custom_card.dart';
+import '../../custom/custom_container.dart';
 
 class TextToSpeech extends StatelessWidget {
   const TextToSpeech({super.key});
