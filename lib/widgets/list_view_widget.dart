@@ -40,24 +40,24 @@ class _ListViewWidgetState extends State<ListViewWidget> {
             ),
             const Text("List Tile View"),
             const ListTile(
-              title: Text("Anupama Divyanjali"),
-              subtitle: Text("mata kelopu httd"),
+              title: Text("ABC"),
+              subtitle: Text("Test 01"),
               leading: CircleAvatar(
                 backgroundImage: NetworkImage(
                     "https://www.houseofwellness.com.au/wp-content/uploads/2023/01/vanilla-girl-make-up.jpg"),
               ),
             ),
             const ListTile(
-              title: Text("Anupama Divyanjali"),
-              subtitle: Text("mata kelopu httd"),
+              title: Text("DEF"),
+              subtitle: Text("Test 02"),
               leading: CircleAvatar(
                 backgroundImage: NetworkImage(
                     "https://www.houseofwellness.com.au/wp-content/uploads/2023/01/vanilla-girl-make-up.jpg"),
               ),
             ),
             const ListTile(
-              title: Text("Anupama Divyanjali"),
-              subtitle: Text("mata kelopu httd"),
+              title: Text("GHI"),
+              subtitle: Text("Test 03"),
               leading: CircleAvatar(
                 backgroundImage: NetworkImage(
                     "https://www.houseofwellness.com.au/wp-content/uploads/2023/01/vanilla-girl-make-up.jpg"),
