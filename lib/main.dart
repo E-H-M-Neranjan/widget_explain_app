@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'widgets/gridview_widget.dart';
+import 'package:widget_explain_app/widgets/gridview_builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GridViewWidget(),
+      home: const GridViewBuilderWidget(),
     );
   }
 }
